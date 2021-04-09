@@ -1,15 +1,81 @@
-#navbar {
-    background-color: red!important;
-    color:white;
+body
+{
+  background: lightgreen;
+  z-index: 1;
+  color: darkgreen;
 }
-#navbar > .container > ul > li > a {
-    color: white;
-    font-size: 20px;
+
+#navbar
+{
+  position: fixed;
+  z-index: 2;
+  margin: 0;
+  background: firebrick;
+  text-align: center;
+  width: 100%;
+  top: 0px;
+  padding: 20px;
+  margin-left: -10px;
 }
-#welcome-section {
-    min-height: 500px;
-    padding: 20% 0 20% 0;
-    background-color: gray;
-    color: white;
+
+.navbar-link
+{
+  text-decoration: none;
+  font-family: Verdana;
+  padding: 50px;
+  font-size: 25px;
 }
-body {}
+
+#welcome-section
+{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: darkgreen;
+  letter-spacing: 5px;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+#projects
+{
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: darkgreen;
+  letter-spacing: 1px;
+}
+
+.project-tile
+{
+  display: inline-block;
+  border: 1px solid darkgreen;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+hr
+{
+  margin-top: 30px;
+}
+
+#profile-link
+{
+  display: inline;
+  top: 30px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media (max-width: 768px)
+{
+  .navbar-link
+  {
+    display: block:
+  }
+}
