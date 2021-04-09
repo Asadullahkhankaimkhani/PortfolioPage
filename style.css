@@ -1,0 +1,15 @@
+#navbar {
+    background-color: red!important;
+    color:white;
+}
+#navbar > .container > ul > li > a {
+    color: white;
+    font-size: 20px;
+}
+#welcome-section {
+    min-height: 500px;
+    padding: 20% 0 20% 0;
+    background-color: gray;
+    color: white;
+}
+body {}
