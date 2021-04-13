@@ -1,0 +1,13 @@
+body{
+    background-color: Black;
+}
+.row-content {
+    margin: 100px 0 100px 0;
+}
+.txt-type {
+    color: black;
+}
+.home-container{
+    background-color: Orange;
+    box-shadow: 1px 4px 4px 5px gray;
+}
