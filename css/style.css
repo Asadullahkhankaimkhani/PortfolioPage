@@ -11,3 +11,16 @@ body{
     background-color: Orange;
     box-shadow: 1px 4px 4px 5px gray;
 }
+.grid {
+    display: grid;
+    place-items: center;
+}
+.navbar{
+    background-color: black;
+}
+.header {
+    color: white;   
+}
+.gridcolor {
+    background-color: Orange;
+}
